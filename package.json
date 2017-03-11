@@ -1,0 +1,28 @@
+{
+  "name": "latestformula",
+  "version": "1.0.0",
+  "description": "scraping app to give you the latest news from Formula 1",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kqazi02/latestFormula.git"
+  },
+  "author": "Kashan Ali Qazi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kqazi02/latestFormula/issues"
+  },
+  "homepage": "https://github.com/kqazi02/latestFormula#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cheerio": "^0.22.0",
+    "express": "^4.15.2",
+    "mongoose": "^4.8.6",
+    "morgan": "^1.8.1",
+    "request": "^2.81.0"
+  }
+}
