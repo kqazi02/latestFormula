@@ -15,13 +15,13 @@ module.exports = {
             var result = [];
 
              // With cheerio, look at each headline, enclosed in "div" tags with the class name "article"
-            $("items.item.article").each(function(i, element) {
+            $("div.article").each(function(i, element) {
 
                 var articleLink = $(element).find("a").attr("href");
                 var headline = $(element).find("a").text();
 
                 console.log(articleLink);
-                console.log(headline);
+                // console.log(headline);
 
             });
         
