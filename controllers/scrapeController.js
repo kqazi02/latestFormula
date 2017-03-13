@@ -17,11 +17,11 @@ module.exports = {
              // With cheerio, look at each headline, enclosed in "div" tags with the class name "article"
             $("div.article").each(function(i, element) {
 
-                var articleLink = $(element).find("a").attr("href");
-                var headline = $(element).find("a").text();
+                var articleLink = $(element).find("h3").find("a").attr("href");
+                var headline = $(element).find("h3").find("a").text();
 
                 console.log(articleLink);
-                // console.log(headline);
+                console.log(headline);
 
             });
         
